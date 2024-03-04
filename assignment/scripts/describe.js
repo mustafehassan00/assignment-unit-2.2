@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// First we created a variable called name and set the value of the variable to Dane.
+// We then created a conditional value if Mary will equal to the name variable we had created earlier.
+// If Mary does not equal the name, then the conditional will go to false and will write out the else value.
+// Mary does not equal to name so the value in console will appear as 'How do you do?' will appear.
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We first decleared a variable called secret and code.
+// We then did a conditional and set the value of code equal to 123 & set the secret string to super then multiplies by 2 & equals to 246.
+// since 246 is less than 250 it will remain as 'super' instead of duper.
+// We console.log (secret)
 
 //CODE
 /*
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// First we declared the variables (isStudent, age, zip) & set the variables value.
+// Then we had created conditonals for the decleared variables with a Compound condional.
+// It then checks if the conditonals are true or false by using the declared variables we made earlier.
+// We console.log(`You're a student on the West Coast!`)
 
 //CODE
 /*
