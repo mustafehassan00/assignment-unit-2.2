@@ -138,6 +138,20 @@ if (mix === true) {
   colorOne = 'purple';
 }
 */
+// There isnt a colorTwo in the if block to make sure that they both are receiving the true conditional
+// from the mix variable
+//FIX//
+
+/*
+let colorOne = 'red';
+let colorTwo = 'blue';
+let mix = true;
+
+if (mix === true) {
+  colorOne = 'purple';
+  colorTwo = 'purple';
+}
+*/
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
@@ -151,6 +165,15 @@ if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
 */
+/*
+The statement and code are not the same. The statement says "We check if temp is higher than 39 and 
+if time is greater or equal to  4". While the code say OR. The potential fix is changing the code from 
+|| to && instead. So it should look like:
+
+if (temp > 39 || time >= 4) {
+  console.log('throw away the food!');
+}
+/*
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
@@ -167,3 +190,15 @@ if(minAge <= age) {
 }
 */
 
+
+// The code indicates that the age and minage is greater than or eqaul to but the console out put would
+// give out the incorrect answer, so we flipped the console.log around in the conditonal values.
+//FIX//
+
+/*
+if(minAge <= age) {
+  console.log('enter');
+} else {
+ console.log('no entry');
+}
+*/
